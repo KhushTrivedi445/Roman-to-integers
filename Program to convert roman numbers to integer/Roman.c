@@ -28,11 +28,11 @@ printf("%d is the integer value of %s",sum,rom);
 
 int Romtoint(char ch){
     
-    if(ch=='I'){
+    if(ch=='I' || ch=='i'){
         return 1;
-    } else if(ch=='V'){
+    } else if(ch=='V' || ch=='v'){
         return 5;
-    }else if(ch=='X'){
+    }else if(ch=='X' || ch=='x'){
         return 10;
     }
 }
